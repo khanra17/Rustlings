@@ -5,34 +5,34 @@ files:
   visible: true
   placeholders:
   - offset: 96
-    length: 25
+    length: 20
     placeholder_text: /* Something goes here */
     initial_state:
       length: 25
       offset: 96
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: /woAluQ8/g4A/EeI65UruezyPQKTHY6lCCJJJhmsYtA=
-  - offset: 132
-    length: 25
+  - offset: 127
+    length: 5
     placeholder_text: /* Something goes here */
     initial_state:
       length: 25
       offset: 132
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: w/IJOa/X0wTeRQDPu82lig==
-  - offset: 164
-    length: 25
+  - offset: 139
+    length: 26
     placeholder_text: /* Something goes here */
     initial_state:
       length: 25
       offset: 164
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: uIOVN3BKcAggn5BPywCqjtUuenYsPTzx5Y6Fh1SJ5YA=
   encrypted_text: /WnNls5KRG1zsc31LSAwl8c2pRqNuyati0LjTywdRTUixz7Yf8Yo/KPMWzGKsVfdPz3g5tfmDZce7LTabOT8vNaLOhI8uJXsLqzbVVTVyffJqej8TuDl8/t8eKL+5je2dKLAnZ+j8fbZDzEt9hAjwgxN60HLD6UaqBxukDe9fuCXjunjphTPjIGz5Mi0MGKnvYuIodmpEWqceSbnRXk/Pq91eGM07qH0Y0K2ooVEclF2XuR9WGj09ju2o1765fAvIOvrPVMI8ytqET3BwokH0w==
   learner_created: false
@@ -49,5 +49,8 @@ files:
   encrypted_text: lo2iaaeo/gUrY0TqRXBe9FJe7GZpsnlN1FxLghgHntxNF7rXjVTJPQ8lnQNZSebP25YD28ZwlbGLGzOB87aQmJ1ymMQ1p3VEUArfFrCGIqYRqYbnllWoc4zT8iIIUxUzSsPHvCCAX8an1yvvQ5Gmgw3EyNukIYsc/b5gmqlijmDC/clFu78Rh/irCRja1jA36R50E2DZ8fdpnQoB6l1oqjb0TIb2YTVbtFFfqbLuyqxkzhZ5gsqhmEYXXuPCGE7d2yIGHxElDyp7kF2DUhwTGptRY9wWV8K+CVFVgdfi42PHb90JxLfix3YmEsOwh9V/StMLeri8d9mI7wXBI2P6FXjBwAdN94Y1ONiQGd5/rjE=
   learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Common+Programming+Concepts+/+Conditions+/+Add+Conditions
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 23 Dec 2022 06:32:26 UTC"
 record: -1
