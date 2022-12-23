@@ -5,14 +5,14 @@ files:
   visible: true
   placeholders:
   - offset: 12
-    length: 41
+    length: 6
     placeholder_text: /* Something wrong with this constant! */
     initial_state:
       length: 41
       offset: 12
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: LG35Bvni2Yh7mxyjbIMzKg==
   encrypted_text: iQiO5La4kDYIuVVV7Oq9kiqEXcCRQLJ9Hn5mJ/cm9Qy08IQgQa6XxMOVDx6L7zLeNRWaY1xlII50VIUB+MxcgWx1rhV78StXFWuYXeNulL7Jn6H27PU7jH4zdPdTcX5gcoR8e9j2ouPsVDZ5UBft8w==
   learner_created: false
@@ -25,5 +25,8 @@ files:
   encrypted_text: YNdyBIXzKKfSo2xID4KPl9alAxvBsXEuZX6RdeiN7PwLex5fWaZ2h5F3PhVwNgklSicx0OFp1T9hYNdlPFqrtEwiELUGCF3iJLHLnyab0zyIhj2IUN8dDDeySQnQ4T8V0M4U9eryQrQnEclBpfkK+A==
   learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Common+Programming+Concepts+/+Variables+/+Constant+Type
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 22 Dec 2022 05:43:35 UTC"
 record: -1
