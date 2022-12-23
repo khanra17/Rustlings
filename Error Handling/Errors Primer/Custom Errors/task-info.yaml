@@ -1,0 +1,46 @@
+type: edu
+custom_name: "Task: Custom Errors"
+files:
+- name: src/lib.rs
+  visible: true
+  placeholders:
+  - offset: 433
+    length: 10
+    placeholder_text: /* TODO */
+    initial_state:
+      length: 10
+      offset: 433
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: lKroCT069bzsLH7ffimPjy3bnZIkz81aXH3MQw006fcy5lNnAJp78vhwkoxmXLaqumwnPeL5wsQRsoYLn49FTFXqhhQKatuYLe88IbpAXQh3vZx96nBe1f0sIdK14YEFD0pg1mWET7xIwv6mpAnXrz9H04tO2EgxAwodBRsHJVU=
+  - offset: 675
+    length: 121
+    placeholder_text: |-
+      let x: i64 = s.parse().unwrap();
+          PositiveNonzeroInteger::new(x)
+              .map_err(ParsePosNonzeroError::from_creation)
+    initial_state:
+      length: 121
+      offset: 675
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: nuUomGdbtggT7KtUKsfjRkpKkZqBFe4i9LA9FLfCzYg+1NAM6zoSX2L++O4ZLJrJdNi81o0mfOft6UtS16f5Xk6y7CtbEpdcoDISKzks7LxmUygApg3aXDJXshgDXdKbx1AjhO36MoK1I9AYpf1qTSMDHMsirbWpJ1dnqGSxF/tlCMp4oVo5erO2Q7yyGaSTGBQfXPusrAKDah1vUltszPe/NmTec6jwnV68w8nZ1E4oPsCvXfTyJ1xXiLCC09dD9RoCAd0M93Iz4hjwUuDmxAojIgXzVsGJ3x4CoxhX1qU=
+  encrypted_text: 00w6Hq7zUAG50d7VIKl0IIjiyBXnCejcUh1ivVHoyOEoxm6JXVqi9V0sBeCbrLEKZODPoO9gYzfOq6Oo550pC2sIfrSGYymXiQ0aMa41h/a8GdqM5ubVXz7lCTjqasx+KeLYU1FOpzxISXRHXFDfLmu0o07LxENgTcspqVHZuTZ7QOOdVQUhFXmeZ0DcfHuvVd/QP9i0U4wu2aGiqpC/XyuYhCOvSMpTyyD9lGsN7nbI66uVAKYVRoGi0jknjax5RQ8lJMeBUr6vPex/LuLS+MHhg/YpGpMI+aoY7B4S9+qYUhfo991xqsAjmYoTBbKQsziXjxUPSAyXmDTJd7OhpHJTUR1D/CCqdIaV2woV2UDaeuQrAEHPxKg5i0UHCnhQb8/ecwTWXM37qUsf8uOwGIH8gvmcRyfPHt5GRLBRXvLrTE42SMHX8ft4RVaKIvXQvQtz4LvdEGmt3vkHOWdV3xKgY6m6wtyXkMMQYXj+DhpLjG4R3oAf2n2gZjGl4qrWGYm0+lGrsttLm4EcQzwx7FddY4R0eonegIH0gw6/r8kj0vwdICc973es1euGx3dcqVE+c19paDUWooFS05exD0X15PGM76LYLQqYNhSub5nROE4aaY/5j6Xu6YJXb1suDvDEdWZjc6G1xBTBf/nRj3oiVG0EGIEdla+nb0Q0olaYnv8Pe8a8oWbHQ3QV0X+5PNXISjEgeeJ3xpFL6K53fvQ38Apk9Z2pIEnBCUtdQ0IIpI0qiwcf33keFOZAePxYYvP3zCHSL/UWddKp1CHtJt0gq4JMCEKe5X/uOWuTsluUC5ABQ0lwDyDJvR5PwlF/02FV03bKp24Vdb3NaS6A4KaP7Cwo1Hxqq/R/lvqDHC8qKVJOS2Nb7v4xN/lNaNMPhEz2mKgjnBh4iX9SuMr4UZnBcgKNU6Pv1McH1q7u85HCuMIBw3GBq5T7kBwKdPjrxhTF3LdlqqXI/3a9kmtIT1/F2BDtgvUTXOUAvBoBwo8OrhzECVmYxdxp/expIzaPMbpbH/CoTl1jftpD/GR3e2JEo2VKqUE/w51MAiOEiD5NvQcdpu8qgEdovJDWsaBepzqwUionbXnHvbJdZpzDX6gM0E1s3euCiuatGJLowAVoYOJ0tqV4vz+mwN2v4olD/FWpLODrAOO0gjyu3HlQD2u9AY2mnrYKS9mk+31JSGIgqBl0gYxDBYP7XmAndpgv+2eDuz9uoOJvTjUOjATBU4qgW2NDaY5VDy67aXY0EiHS6YxXrL4Mdp5Rr/PYm2HSMeJihd2K/s60yklggc8RimumqmIlUlM5yufqs0cp6aSyD2rYUxl7zbjcieBA2Q4/nlq2hNzbIroBGkW5ZXwfMAwwP9xM1Xu2HeMFY2OFQxsVML89nd7JDeEl+ym6+LdCxvYdwcouo0CJLt/XY+1EWFZQY7rwqb5CUa9zNqqBv3+qpJPhkYeIvktw8wR/DqR1W4oncHnplYiZ+mYECfT8kzYH9d8U+8NMdBYc4Ovq240Uq1gk+MveNwrsykY3ngDzeC/8ODewJIK5TJaMW1QdifAZaeaTpQ9NNbKKXTwaNgtUy6FKkGPs0Zck1RQpEBCYWhaQ6v5zF4ckl1FW/+aTpfXzhIJjgFKe5IXArfjlMJrsmTM+akM/J4MOqogKo7htww12WxWOddzdvzIlQEbjWZIGxPXzXO+cWemsYygc7DCIrbbYDkulwilF68guOR4y1+VMSpGmF3MtXw2Nng0Y0Q==
+  learner_created: false
+- name: src/main.rs
+  visible: true
+  encrypted_text: 86VauIiL+frXfC4J/T9xj/h2bHXBncMfbK5PAx2awmMoJol8tVAKCVWJx/CVEMRoGU55XI43kXBkIaNpXQcTxAWE9Z0ej4U3LvOhOpFs6SSgSgA2PFJbdhA9S8RbFH5VtbmOn3QXgyeaAsgLn+lH4J+GBl/5HpA+xHcB/VZ/JqLDiEwTGMlmVlB/7QRmV/A0lBhPOX8K7y1KaVhjfQ30DnwO9e5wrYqiiSU4zHNLazmy4MEfmmrTpZPnVFYWeBhU1/6NmxMIpTrCZ+LzRdPOCcaoYzb6UYLgI3uMC6MK2wSd6TE2L7VGMDVoczfwA5F3
+  learner_created: false
+- name: Cargo.toml
+  visible: false
+  encrypted_text: m9XZNRB4SP+Ysnl4An4VfBlvw/ZmMqA2uQPnSmiQ3T0bvy4byjkcRcrwRd3OTSvdJBCopFqjK9+spLW+f6tCKw==
+  learner_created: false
+- name: tests/tests.rs
+  visible: false
+  encrypted_text: 86VauIiL+frXfC4J/T9xj2Rf+L9vLDgzIPM7d43//VeztZqu1RG7jvM2l2RBC59MFpFZziGh3BcpGJpmKtw5FSCVM4yvtkkeKOmM0QnEutZGPgEc83YQ+UlDHg3DMuHLd63eGczQJu3IJKWQI8kY/UtW5kxUj6vmDc94NO+3XbRoIyMcegko9XpGqpCTGSqN7BRbmRU/+GRxc3iW++mOZB7iBOIgHQECs2/Hoa8OBe0z/dXIaF4rWW11nu/AnVe9rQOxSJ9SUjxtafnkPqHX8X7UgNLTvN09tUZxXeEY7l9+8LJ7uqX5WwhoK71WJ3C404QGMw4dkbmQKRiBAxbQa4UPCPwJYVBjZoEkr39IUGkqc6UXWnyR5RkxI3pbnIry8gLPvmZpKjS0navYqfMm2K5008x2iBvW97PXAxMwJtgXP2JD5tRQjROG0G3h8733OVzU04Y1o91aOC6Qxf4BbSjkabxFbxOlBJTwsV7mVYAM0iRx2te7lwTlo4EEHcIYCpTxTXbzQtilqgydx8lsCL3ByNz+3L2tSsa+Ye7HCM7dzdh6EcsBns0WO+YZ7olRNMOF9MT/RGeA6YJsNxtHvrIZ/+c37wLQZ88QzuPVLouEaunv7UyJbJMai9kAuhisnEvu+vElMnvGoDabAkSJY1wM6Qx7QUh3OSm+UVhrgtvSwvBRG3HJeCgLVVC59fEPl4TUXyuPXVrisVjMSsglJ3tFb3gX4c56bqVF/fAFc28l9cH7nLSEp5slNayoNmXaJv33lgoaw73rLh2ztA88LN5CL6OakNCwHku+Dp6vG2PL7rD3ZO4aWo/9Om6wK0hpd4EcvudX3wxajqEtlfA4W/VOZO6BeNGul+eVoyw2VXFOvpdqheNbcNXF/SIkLkz8t9S44Oy4+dGfdmArBChcwq1MO0tdboa8fwbpcyfxIC/jPYHR5vwX2k7eth7jbXfH
+  learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Error+Handling+/+Errors+Primer+/+Custom+Errors
+status: Unchecked
+record: -1
