@@ -13,17 +13,20 @@ files:
   visible: true
   placeholders:
   - offset: 24
-    length: 10
+    length: 9
     placeholder_text: /* TODO */
     initial_state:
       length: 10
       offset: 24
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 9sNYkhdWX+a+VGmmRvmBfAgnkwRT3l7I5gC4+W41G2dHhTdtfe3Up7wQFvjhUrEhht1ZF8iCUpD91VIcGIuBdA==
   encrypted_text: sl3O59VlDkdl7u9JaiP8DOvwLC+Bl9752ybL5aLDr5WCioDFEw8UEyGanCINR1b5w+KGuZTa4eKrxa7qzjwCiqC2nMtk10zD4VlQ2jdCowyW7Owobi6eYRzEteMoq4nmuQtF1UjEZjIBAPk1KCA4Q7jzA3p+AwLuurEp2TtzxCqXqnfKIAxnVxKtJONuv2Q7qXYfXu6UIv2LCDyI0QeT3OTQOaT6SqZXncPK+jK8MXWpXw2K1ZssAtuiNqUj4wW6hsk/suPi/3HMA0YNs2cQXDXkQK50WVwyxTgZrExU8Us=
   learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Common+Programming+Concepts+/+Tuples+and+Arrays+/+Create+an+Array
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 24 Dec 2022 05:33:36 UTC"
 record: -1
