@@ -5,7 +5,7 @@ fn main() {
         "October", "November", "December"];
 
     print_months(&months);
-    print_months_reversed(months);
+    print_months_reversed(&mut months);
     print_months(&months);
 }
 
@@ -16,7 +16,7 @@ fn print_months(months: &[&str; 12]) {
     println!()
 }
 
-fn print_months_reversed(mut months: [&str; 12]) {
+fn print_months_reversed(months: &mut [&str; 12]) {
     months.reverse();
     print_months(&months);
 }

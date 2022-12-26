@@ -4,5 +4,5 @@ fn main() {
         "July", "August", "September",
         "October", "November", "December"];
 
-    println!("{:?}", months)
+    println!("{:?}", &months[5..=7])
 }
