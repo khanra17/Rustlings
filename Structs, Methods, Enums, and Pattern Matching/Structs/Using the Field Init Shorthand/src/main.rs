@@ -16,8 +16,7 @@ fn build_user(email: String, username: String) -> User {
 
 fn main() {
     let user = build_user("anyone@example.com".to_string(),
-                           "anyone".to_string());
+                          "anyone".to_string());
 
     println!("{}", user.username);
-
 }
