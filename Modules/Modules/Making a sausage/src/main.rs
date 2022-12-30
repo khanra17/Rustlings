@@ -3,7 +3,7 @@ mod sausage_factory {
     fn get_secret_recipe() -> String {
         String::from("Ginger")
     }
-    /*insert the keyword here to make the function public*/ fn make_sausage() {
+    pub fn make_sausage() {
         get_secret_recipe();
         println!("sausage!");
     }
