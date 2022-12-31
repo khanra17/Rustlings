@@ -3,8 +3,8 @@ pub fn create_array() -> [i32; 4] {
     a
 }
 
-pub fn create_vector() -> /* TODO */ {
-    let v = /* TODO */;
+pub fn create_vector() -> Vec<i32> {
+    let v = vec![10, 20, 30, 40];
     v
 }
 
