@@ -9,24 +9,24 @@ files:
   visible: true
   placeholders:
   - offset: 163
-    length: 19
+    length: 13
     placeholder_text: /* something here*/
     initial_state:
       length: 19
       offset: 163
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: XTss5oK3Vvu4Kiq4Z0j2qw==
-  - offset: 188
-    length: 26
+  - offset: 182
+    length: 1
     placeholder_text: /*and the last part here*/
     initial_state:
       length: 26
       offset: 188
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 3XQ+R2u5I4DrKZGYa+tM/w==
   encrypted_text: sl3O59VlDkdl7u9JaiP8DLF0pS2bNhVANKUlUGUwiNH1bUAuGLE7kgssGr+ZKEQeHveYy76XSvxVSBqo/WGnW383f9DR0HCWqcUjHEJgYdDtZZTOmHbkTyZ8HtUt0R4TI1hdm4yZd0JjxFaVGDrWqTfGep/ic0u0REnOVgvH97wlGpdZYkI0Wzi/TpGkvi8SlGexgkOTtjUln+Ag0/sUTju4kziWIra+yi0ez1WvX7N0ju5M8vfBqbWjwaD8nZrhOB6o/lWlAk5WYrYh7GgOxIhMYhujhwnVqJU7I+QbVp8=
   learner_created: false
@@ -35,5 +35,8 @@ files:
   encrypted_text: YNdyBIXzKKfSo2xID4KPl9alAxvBsXEuZX6RdeiN7PwLex5fWaZ2h5F3PhVwNgklSicx0OFp1T9hYNdlPFqrtEwiELUGCF3iJLHLnyab0zyIhj2IUN8dDDeySQnQ4T8Vm+/EC1NguOqk3/BjT3jh8g==
   learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Common+Collections+/+Strings+/+Return+a+String
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sun, 01 Jan 2023 09:44:37 UTC"
 record: -1

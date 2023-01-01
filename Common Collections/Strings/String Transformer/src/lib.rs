@@ -7,10 +7,20 @@ pub enum Command {
 pub mod transformer {
     use super::Command;
 
-    // TODO: Complete the function signature!
-    pub fn transformer(input: /* Write type of input */) -> /* Write type of result */ {
+    pub fn transformer(input: Vec<(String, Command)>) -> Vec<String> {
         let mut output = vec![];
-        // TODO: Complete the function body!
+        for (mut string, command) in input {
+            output.push(match command {
+                Command::Uppercase => string.to_uppercase(),
+                Command::Trim => string.trim().to_string(),
+                Command::Append(times) => {
+                    for _ in 0..times {
+                        string.push_str("bar");
+                    }
+                    string
+                }
+            })
+        }
         output
     }
 }

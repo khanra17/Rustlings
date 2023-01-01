@@ -4,5 +4,5 @@ fn main() {
 }
 
 pub fn current_favorite_color() -> String {
-    /* something here*/"blue"/*and the last part here*/
+    String::from("blue")
 }

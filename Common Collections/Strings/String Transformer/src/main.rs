@@ -1,4 +1,4 @@
-use string_transformer::{/* TODO: Complete use declaration */};
+use string_transformer::{Command, transformer::transformer};
 
 fn main() {
     let output = transformer(vec![
