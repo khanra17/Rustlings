@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Test optional_value" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+  <configuration default="false" name="Test optional_value" type="CargoCommandRunConfiguration" factoryName="Cargo Command" activateToolWindowBeforeRun="false">
     <option name="command" value="test -p optional_value" />
     <option name="workingDirectory" value="file://$PROJECT_DIR$" />
     <option name="channel" value="DEFAULT" />
