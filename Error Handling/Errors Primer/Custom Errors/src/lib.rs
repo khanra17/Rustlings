@@ -4,7 +4,7 @@ use std::num::ParseIntError;
 #[derive(PartialEq, Debug)]
 pub enum ParsePosNonzeroError {
     Creation(CreationError),
-    ParseInt(ParseIntError)
+    ParseInt(ParseIntError),
 }
 
 impl ParsePosNonzeroError {
@@ -12,17 +12,21 @@ impl ParsePosNonzeroError {
         ParsePosNonzeroError::Creation(err)
     }
     // Add another error conversion function here.
-    /* TODO */
+    pub fn from_parse_int(err: ParseIntError) -> ParsePosNonzeroError {
+        ParsePosNonzeroError::ParseInt(err)
+    }
 }
 
-pub fn parse_pos_nonzero(s: &str)
-                     -> Result<PositiveNonzeroInteger, ParsePosNonzeroError>
+pub fn parse_pos_nonzero(s: &str) -> Result<PositiveNonzeroInteger, ParsePosNonzeroError>
 {
     // Change this to return an appropriate error instead of panicking
     // when `parse()` returns an error.
-    let x: i64 = s.parse().unwrap();
-    PositiveNonzeroInteger::new(x)
-        .map_err(ParsePosNonzeroError::from_creation)
+    let x = s.parse();
+    match x {
+        Ok(x) => PositiveNonzeroInteger::new(x)
+            .map_err(ParsePosNonzeroError::from_creation),
+        Err(error) => Err(ParsePosNonzeroError::from_parse_int(error))
+    }
 }
 
 // Don't change anything below this line.
