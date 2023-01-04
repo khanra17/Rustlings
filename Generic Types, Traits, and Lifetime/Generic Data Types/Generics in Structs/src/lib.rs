@@ -1,9 +1,9 @@
-pub struct Wrapper/* Something goes here */ {
-    pub value: u32,
+pub struct Wrapper<T> {
+    pub value: T,
 }
 
-impl/* Something goes here */ Wrapper/* Something goes here */ {
-    pub fn new(value: u32) -> Self {
+impl<T> Wrapper<T> {
+    pub fn new(value: T) -> Self {
         Wrapper { value }
     }
 }
