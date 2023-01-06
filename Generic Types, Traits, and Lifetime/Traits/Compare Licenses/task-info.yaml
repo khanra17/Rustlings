@@ -5,7 +5,7 @@ files:
   visible: true
   placeholders:
   - offset: 59
-    length: 1
+    length: 35
     placeholder_text: ;
     dependency:
       section: "Generic Types, Traits, and Lifetime"
@@ -18,28 +18,28 @@ files:
       length: 1
       offset: 59
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: FHttxiiKwPF1qpza1e5lwBtYUGDaHp7MTkbShr4LAfIa7xaP4vWv0g5KhTN/1ylU
-  - offset: 267
-    length: 2
+  - offset: 301
+    length: 13
     placeholder_text: ??
     initial_state:
       length: 2
       offset: 267
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: wLmZxrQixD9SDgDf9Bsn6w==
-  - offset: 285
-    length: 2
+  - offset: 330
+    length: 13
     placeholder_text: ??
     initial_state:
       length: 2
       offset: 285
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: wLmZxrQixD9SDgDf9Bsn6w==
   encrypted_text: WoACCO16t8kJzFueEjg72MuS9mcabGD7/4lPOlGpQA02jpOtX6qYZ/YxMjKrsN6P2IY+16mSmrdXQEtalMcwzjRqbNMazOyDvc9AslbBx2US/jKQi5awXqqb/iBwa7mRvgJT6RyV/OpNAvvqi/ry4lqT7yv25fLsuULPTQkQRwTr6zmz8Uy8HtukBP41RN6EFPIOHjVt1Dce0Co1jTv57q7ovHxd7BvdgKPg/Cjwuyilv3BMUaD5LmjcVnZnFCnxnM8o70U4DjZ2uolLlzi+eAjNq5SNhziNS9ieNrZvxjxjUIBo6p/DglJGFCdmqysTc/Xd/F6502OgvDTs0WjbKmyyTT4YpyfnG/9AhhavNt5ccsN+n9IaxBbtxJ7TBxoTTzGyWh4kXwmce3O3E7Mge2/6IuQhwAGrbBhu84TUHx1zuac+2anu4SaXpoUEM9w+BJ460Z68YDBPCkPmwkWtWJabgJ8P+41JEnHAutmCzq4=
   learner_created: false
@@ -56,5 +56,8 @@ files:
   encrypted_text: bkl8x2oNClmfL+nPBJ7XY0IENqrWGeFKVLMIrwQ5/ArtNuYkc1A6t1s1HXaVjiew8XvxznPkmmr6P+v5zi6ZFSmXnuCfCqSk9n2AEWfO1xxGgXoRQEX2Yn08/trM6VY9LVGx6k42Wg+IAg7BHKyjvbJVqni2TB01qf+L4IkXP3WJZB66/rGiiv6pcVJkAaETFswgHJdlWlJ8JgJBEhXMjgNhADjpOzBujFj90U+O6XvmeljDsyi1x7IYWKaK+QtiMzpbXg4Xt6qh7/u+cbtisGQy8ewbHnjgp4PeMThIcEO0WLX2TTj+FR3EauACI8183HpUL2yez0ccMNoV3iJNze10+fMLfgtEHAZDj0QuC/wyrfXxFyiTB3EWJIaTMHGl+FyJhiCzcHzkprZ7faOPX8meiy7mFdvl2jAT1zBocI8IqG3bukDBXa/YGnOVop2pkk2auFbK8Dd9d11n9GNPzad4BYAn9yCFp9KX9BjLDqkIyAWV2U25aCeaND45PIUIshBWgT4w06ekfR2yr23HJYopKX4NjK2V0IHSyBfcV10fPYuBnTsS/TBPhu7yrw2n
   learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Generic+Types+Traits+and+Lifetime+/+Traits+/+Compare+Licenses
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 06 Jan 2023 17:40:46 UTC"
 record: -1

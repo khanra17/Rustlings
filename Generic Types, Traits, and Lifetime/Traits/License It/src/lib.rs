@@ -1,5 +1,5 @@
 pub trait Licensed {
-    fn licensing_info(&self) -> String;
+    fn licensing_info(&self) -> String { "Some information".to_string() }
 }
 
 pub struct SomeSoftware {

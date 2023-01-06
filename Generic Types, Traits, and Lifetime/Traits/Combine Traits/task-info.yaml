@@ -5,14 +5,14 @@ files:
   visible: true
   placeholders:
   - offset: 343
-    length: 2
+    length: 27
     placeholder_text: ??
     initial_state:
       length: 2
       offset: 343
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: e9I2MhvgJCzQP6ni1meIIYLVDLNT7uync+kK+6tW25o=
   encrypted_text: AFU3T6qnErJnG3m5loEFfzxT+EJNqYSR8+iswx8QnrsJv/G9+te9Zs3yKy1K/Xlt67spnlZaJTY0IRjIyN1RkN8IfnBzWRwDdn+2p+YRGcSyGQt9KP0Gr5p2c4yQcrE03sXSSjBEJhiDKHpWRbLTfAmo7a5JC1RaKhI+ytmNFtLguIDy1zNFxdZZk/n/nlI4cIMQj3uuV/3oG94AkoLUgdrYhxvRDS1jyvpq+xmWmJUx1e8TPvNDvewJI+KGHHwYRh59CnlBJ7lZXmE9SUtHyeSO2ek9b7OV2T9xSrrIpFA/uuJ2zys2oV4Aqalb6cHk8982OlDE3BbjxkPoEQgnj1xozYDMyLVVd0g+irA1HN+7DwWC7qUxMMW1PlXmy2dUwNYY+u8cK06oWLxDnz7WoXXi8Yn3iH4dRg3VbMTywiF0zdNtY78gX3+KJfBF+RB9wq6BGcaQha2b/dd/IKmtrNeX4WCigmWgx2PY9uKMAainhiOAduSvA/SqZQOonhpazeoNkNpAYhDoOdzQCHIvaC4fVJnaciN2fVI0CSry79Y=
   learner_created: false
@@ -29,5 +29,8 @@ files:
   encrypted_text: UKxaJBf/bHrElai4oq8qFA3RodY9Anx/egkk6B+E5YwYo+ccdwAep9Dpz7whcdRM
   learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Generic+Types+Traits+and+Lifetime+/+Traits+/+Combine+Traits
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 06 Jan 2023 17:44:28 UTC"
 record: -1

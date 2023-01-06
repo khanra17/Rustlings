@@ -5,14 +5,14 @@ files:
   visible: true
   placeholders:
   - offset: 90
-    length: 24
+    length: 66
     placeholder_text: /* Add your code here */
     initial_state:
       length: 24
       offset: 90
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: sCwo7h0yabDSMuJGLue9nc8EeivAoy7rCsXXklOZicjbj+hlGqaewO9Ga1wnv8GjABdw4iPBLjncerevHy5Og1erPPwhHIJ8/wm+psDswrU=
   encrypted_text: kSxZY5UAcrDOD0O/WQ2vYn4BOYVn01fDkGsiSno5lIvuyY2TN8JFhyXaqRvcYAmL0q0hbrqaKw35hKyLhbxupkLJV7TPCuN/I1BL1ZL5rYcGUywdxz9IpMdUJyHYvRE5yKlY0xgZwC+jKiAqHWK8lLweoooWAI5Vk132TKy8rhM=
   learner_created: false
@@ -29,5 +29,8 @@ files:
   encrypted_text: 8aYBBmqoh0FuTc69pG7i7uiesm0zKf+KAxJt1svUZ1WiwutRJGAt4FxKeX7B82IcR/to6JaVw3GaLmWTPc6OVXUTCbgnsoHrGHY8o888LTgmDQmT5gqrzbs1zwyf0z5TjNP8zSFQAuQgn/+Rhtf77HgR3GEy147klaI09jxdoVUPEimexCVacGL3VwSwsRVHTc4Z3ald/zm3OkpKe+zgJqMkiWVL16PgPg9JWPIGK152yEAMEljhZhH7N6Oya1UEFo/s5GC9ABRyx1uNHhTpBqG9NQTLZSvB1ALA0xKsfm2uoODd5SLN6OPGXfvKh8L9qtPGTBw//a0DZpXAZgKtX3RBw1tKsuvAnAbY3reuwzw=
   learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Generic+Types+Traits+and+Lifetime+/+Traits+/+String+Trait
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 06 Jan 2023 17:31:52 UTC"
 record: -1

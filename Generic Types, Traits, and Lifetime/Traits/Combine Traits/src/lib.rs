@@ -18,6 +18,6 @@ impl SomeTrait for SomeStruct {}
 impl OtherTrait for SomeStruct {}
 
 // YOU MAY ONLY CHANGE THE NEXT LINE
-pub fn some_func(item: ??) -> bool {
+pub fn some_func(item: impl SomeTrait + OtherTrait) -> bool {
     item.some_function() && item.other_function()
 }
