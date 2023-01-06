@@ -5,34 +5,34 @@ files:
   visible: true
   placeholders:
   - offset: 11
-    length: 0
+    length: 4
     placeholder_text: ""
     initial_state:
       length: 0
       offset: 11
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: qMgrDZ+Ooe1FUphmzH6Jtg==
-  - offset: 27
-    length: 0
+  - offset: 31
+    length: 3
     placeholder_text: ""
     initial_state:
       length: 0
       offset: 27
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: WBat4okiK+5Zv/gl88LSQw==
-  - offset: 44
-    length: 0
+  - offset: 51
+    length: 3
     placeholder_text: ""
     initial_state:
       length: 0
       offset: 44
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: WBat4okiK+5Zv/gl88LSQw==
   encrypted_text: XzGMSf+R3VfLJaGAI6xWzcQXSahXL7+/5gS276WepgP+m1jwW23y03/hqC5tvURqjfechpECRIsJkgIUbG4q7Fi+3RBO6/Xj+x+e/bJygkE8DXcO/2reLo7cNUbMICwiUejMrg9Pav0vZIIGsSFc6MbiBtVgZ50hP48fgw5ryv7H+XNGasesQHB+F/aEt4W4NZoms1T3VHpp6LMjnoxh+yYJUrqhnFLw6EYkjymXUxal2ye/kE98hYdfYz5I2JVmsCrScV2+A7LPnfYJVul8XhPqYCuYS4TdISZcT6XWxKKSUyT+QIfjZUuLMNA508Y10MCh+kImVOL8N3LpBUYZA5n3VRvSLVgmYQ0wlAaUMEM=
   learner_created: false
@@ -45,5 +45,8 @@ files:
   encrypted_text: djixgK9yf+77p+QsN8barGbkSybBjFzt6KPRXRZvpRM=
   learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Generic+Types+Traits+and+Lifetime+/+Lifetimes+/+Lifetimes+for+Structs+with+References
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 06 Jan 2023 20:24:51 UTC"
 record: -1

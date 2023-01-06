@@ -9,9 +9,9 @@ fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
 fn main() {
     let string1 = String::from("long string is long");
     let result;
-    /* Something could here */
+    let string2;
     {
-        let string2 = String::from("xyz");
+        string2 = String::from("xyz");
         result = longest(string1.as_str(), string2.as_str());
     }
     println!("The longest string is {}", result);

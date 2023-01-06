@@ -1,6 +1,6 @@
-struct Book {
-    author: &str,
-    title: &str,
+struct Book<'a> {
+    author: &'a str,
+    title: &'a str,
 }
 
 fn main() {
