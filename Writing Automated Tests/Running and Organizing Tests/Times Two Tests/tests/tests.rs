@@ -4,12 +4,12 @@ mod tests {
 
     #[test]
     fn returns_twice_of_positive_numbers() {
-        assert_eq!(times_two(2),/*insert the value we assume to get from the times_two function*/);
+        assert_eq!(times_two(2), 4);
     }
 
     #[test]
     fn returns_twice_of_negative_numbers() {
-        /*write an assert for `times_two(-2)`*/
+        assert_eq!(times_two(-2), -4);
     }
 }
 

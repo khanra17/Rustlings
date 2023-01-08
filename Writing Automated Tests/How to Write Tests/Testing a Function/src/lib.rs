@@ -8,8 +8,11 @@ mod tests {
 
     #[test]
     fn is_true_when_even() {
-        assert!(is_even(/* TODO */));
+        assert!(is_even(4));
     }
 
-/* Write a test function called `is_false_when_odd` here and test for `is_even(5)` */
+    #[test]
+    fn is_false_when_odd() {
+        assert!(!is_even(5));
+    }
 }
