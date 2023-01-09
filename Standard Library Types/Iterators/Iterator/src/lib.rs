@@ -1,3 +1,5 @@
+use crate::DivisionError::{DivideByZero, NotDivisible};
+
 #[derive(Debug, PartialEq, Eq)]
 pub enum DivisionError {
     NotDivisible(NotDivisibleError),
@@ -14,28 +16,28 @@ pub struct NotDivisibleError {
 // Otherwise, return a suitable error.
 pub fn divide(a: i32, b: i32) -> Result<i32, DivisionError> {
     if b == 0 {
-        /* TODO */
+        Err(DivideByZero)
     }
     else if a % b == 0 {
-        /* TODO */
+        Ok(a/b)
     }
     else {
-        /* TODO */
+        Err(NotDivisible(NotDivisibleError { dividend: a, divisor: b }))
     }
 }
 
 // Complete the function and return a value of the correct type so the test passes.
 // Desired output: Ok([1, 11, 1426, 3])
-pub fn result_with_list() -> /* Something goes here */ {
+pub fn result_with_list() -> Result<Vec<i32>, DivisionError> {
     let numbers = vec![27, 297, 38502, 81];
     let division_results = numbers.into_iter().map(|n| divide(n, 27));
-    /* Something goes here */
+    division_results.collect::<Result<Vec<i32>, DivisionError>>()
 }
 
 // Complete the function and return a value of the correct type so the test passes.
 // Desired output: [Ok(1), Ok(11), Ok(1426), Ok(3)]
-pub fn list_of_results() -> /* Something goes here */ {
+pub fn list_of_results() -> Vec<Result<i32, DivisionError>> {
     let numbers = vec![27, 297, 38502, 81];
     let division_results = numbers.into_iter().map(|n| divide(n, 27));
-    /* Something goes here */
+    division_results.collect()
 }

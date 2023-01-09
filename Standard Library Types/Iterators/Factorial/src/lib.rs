@@ -1,3 +1,3 @@
 pub fn factorial(num: u64) -> u64 {
-    //Implement the function here
+    (1..=num).product()
 }

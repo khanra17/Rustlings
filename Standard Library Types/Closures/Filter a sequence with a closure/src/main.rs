@@ -6,7 +6,7 @@ fn main() {
     let smaller_than_cap: Vec<_> = elements
         .iter()
         .filter(|&&a| {
-            /* Complete the closure here */
+            a < cap || { left_behind += 1; false }
         })
         .collect();
 

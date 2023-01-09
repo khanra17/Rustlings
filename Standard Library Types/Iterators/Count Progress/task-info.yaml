@@ -5,24 +5,24 @@ files:
   visible: true
   placeholders:
   - offset: 416
-    length: 10
+    length: 48
     placeholder_text: /* TODO */
     initial_state:
       length: 10
       offset: 416
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: M05057KV750T6B6bdS1kUNMJjMnFsG98rkJPvZ7xARWRicyXR0cDbR/ZXKtwdFn3rZRnXAJA4UCfX9iOk7zt9g==
-  - offset: 788
-    length: 10
+  - offset: 821
+    length: 129
     placeholder_text: /* TODO */
     initial_state:
       length: 10
       offset: 788
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: epFU1+4gUwvnnbtstNqabJNi3JkgS1HoH98EA/Xa3gpGb+36sev8qPXVWLLMevHmekkIy3ZWhrH1tE5ufENp4jBEnjvYrXRCun5uFXI4MB1IpSvk40iSkWWZPlVwmJH9PaTBwaVp4sKKUVAAHiTwSqvuj3DOyJB4mkjQJXvuxFIEdXQz9IkQaaS/0h00fvq8
   encrypted_text: ZrXfX0hq3grwbdLxz14AtdgP3gA50mqwq1U3sNc63lvIT7snVTyAMkp90XnMa8vz/ztrbNyQ9IGKxJJN9QGnW5UuIs7V4A4dqeoNXJW9now77we3KQohjH8jPix9/2may8pLq1hNC+Fo/k1e1lgx0ZjnriTaUm1ucAWVDhxby2PksIJctC1kmNjai4FoXh0gmUPBDwFVDi4PdwJrAnrXZaP9CmCVqNpMxZo1p4cIjFNKZufC/Q7VvVnY9iiGK+qDCv1g6UrLEat+qvxp5y/FStmIHhoYet4tCzXUobU/imSTpQGhA7fUz5zg2GVOmaufdhJ3NsbBvMn1V/vLpNTJfGo+XnEey8HGMDf6L2qEjt/2us9kPERPilZH3JBblGj4jeQVY+6SH/JjeP0UO2Ki0Hy/tGw7iRNztJbw72nc72I3tGQevpYTBIpvpmzRdNzIEeAM/MyRTYOo0IIf+WnYtf8mYSReiAb9RFQwd36qxTHcdM2qfkjUDiDhUdG7iGgt8ApK1qXhOxsakCJA0D2U9/EKuhiqsMfAN/pmNMWnbQfSUDdRlOzqguAWdIeEd2SYAOT9TFTHqN1jrXmlgNC1E2NvW+rPawm8dVZS6Tw1gBysbCROkObKQXulKoqvp6OocHYgiMm5751XaUL5k+AkeXrUApJoEyquyPJR0jBirI/0/Gqwv2nWj6My235Js81Ii/WMsT5eT+vSUgFLeYXlfKDNAkCItt3722dMa8NQgIATTDz2TXd+FBTLBCg028et/X2Ac++2Kxn9eQRWPHsJkEUMkTj0z0ltZ7tEYo2/TkB7JUwReEtVkTJmmVG0nm5rSWQI3xrzZKMIGaJIcTFBbe0PsVIPmfymvWMDlaWYZaPwH8oHll1+o3P7EP6YwZhmdEhyas7yy/l8hhhRddcjZh7CQelUUfi8dlnN/LcVLCU4taP9BesT6m70aKfstUVSkHXdD+Pxn75DOBuS96+YRbZijj1DXZXbkPOulAbh0Kox2Zy4DCmG9Sb0icXCGWIxpSy6LNyHXRSHEWke5NhdmWNf7finoLAvbwBERYEyfAm6lpdNG1WbhVVkZ6+VSEZC
   learner_created: false
@@ -39,5 +39,8 @@ files:
   encrypted_text: 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
   learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Standard+Library+Types+/+Iterators+/+Count+Progress
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 09 Jan 2023 18:03:06 UTC"
 record: -1
