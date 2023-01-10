@@ -1,14 +1,14 @@
 use crate::lamp::Lamp;
 
 pub struct Switcher<'a> {
-    lamp: &'a mut Lamp
+    lamp: &'a Lamp
 }
 
 impl<'a> Switcher<'a> {
-    pub fn new(lamp: &'a mut Lamp) -> Self {
+    pub fn new(lamp: &'a Lamp) -> Self {
         Switcher { lamp }
     }
-    pub fn switch(&mut self) {
+    pub fn switch(&self) {
         if self.lamp.is_on() {
             self.lamp.switch_off()
         } else {

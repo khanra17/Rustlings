@@ -1,18 +1,18 @@
-/* You may need to use something */
+use std::cell::Cell;
 
 #[derive(Debug,Default)]
 pub struct Lamp {
-    on: bool
+    on: Cell<bool>
 }
 
 impl Lamp {
     pub fn is_on(&self) -> bool {
-        self.on
+        self.on.get()
     }
-    pub fn switch_on(&mut self) {
-        self.on = true
+    pub fn switch_on(&self) {
+        self.on.set(true)
     }
-    pub fn switch_off(&mut self) {
-        self.on = false
+    pub fn switch_off(&self) {
+        self.on.set(false)
     }
 }

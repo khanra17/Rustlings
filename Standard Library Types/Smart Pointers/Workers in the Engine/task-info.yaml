@@ -17,44 +17,44 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 35
+    length: 40
     placeholder_text: /* You may need to use something */
     initial_state:
       length: 35
       offset: 0
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: LzhpDCypNNO04yX6RjT017fVgGy8zxA/2cY/2E0OXSc1LllVHFqvn6l6rB8IYPZM
-  - offset: 81
-    length: 12
+  - offset: 86
+    length: 24
     placeholder_text: '&Vec<String>'
     initial_state:
       length: 12
       offset: 81
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: koXL2mFeEzoRqmFduPB79iyGNf4fJRVkaddYVDTwaWI=
-  - offset: 142
-    length: 12
+  - offset: 159
+    length: 24
     placeholder_text: '&Vec<String>'
     initial_state:
       length: 12
       offset: 142
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: koXL2mFeEzoRqmFduPB79iyGNf4fJRVkaddYVDTwaWI=
-  - offset: 241
-    length: 41
+  - offset: 270
+    length: 13
     placeholder_text: /* `push` requires a mutable reference */
     initial_state:
       length: 41
       offset: 241
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 4Ty4pr2uOIupGI9An5n+vg==
   encrypted_text: AqEMy3IIiP1FLHQa3mZWxtaFrwVvlHjIIKK8krVG8WFafOrVdu26IvxEtGfBTfKARl6Jm0hlMHkIPjajKO5SbnjgpSe5L9JOkvONiPGsxGcwshqmk58dI/RQlpYcpGWjQojSqsa48Mxsdi/M9lqKNvZkJQ/GDO/v9AigGEl3O2TEXDX599QZXnq6VI0+ipZYzaw2a/ZQjdfRDamy365y2yH2e/PBIg8rN2yKXNMppBEvX9XIpMvf0i6kO1vn6wX7U71Zi0Jm1g93py2slNOYLljutr4B/ja3knz/JmafTOOHRJlOYKkExCo+/gi9TrYPMcDkOvo5IgcbFistmUh/k7UHIaj+HtZY/ryMl3Epj8+v+d3DBwBXHjwOnf+ZLqFkmRWpjR/REK9pC0gC5zrl+0V7tIvhtS8yYIkraeLP8zoiBgbjas2ARuksIjtjpcWxqJXghWwEF7OZzKJaJBAsDw==
   learner_created: false
@@ -62,54 +62,54 @@ files:
   visible: true
   placeholders:
   - offset: 27
-    length: 35
+    length: 40
     placeholder_text: /* You may need to use something */
     initial_state:
       length: 35
       offset: 27
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: LzhpDCypNNO04yX6RjT017fVgGy8zxA/2cY/2E0OXSc1LllVHFqvn6l6rB8IYPZM
-  - offset: 93
-    length: 11
+  - offset: 98
+    length: 24
     placeholder_text: Vec<String>
     initial_state:
       length: 11
       offset: 93
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: koXL2mFeEzoRqmFduPB79iyGNf4fJRVkaddYVDTwaWI=
-  - offset: 209
-    length: 6
+  - offset: 227
+    length: 29
     placeholder_text: "vec![]"
     initial_state:
       length: 6
       offset: 209
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 3i9/UUD0r2jY/wiI0cOlrrdd8Sj6H3eNobxcboMu+mI=
-  - offset: 350
-    length: 9
+  - offset: 391
+    length: 20
     placeholder_text: '&self.log'
     initial_state:
       length: 9
       offset: 350
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: Rb4ARw7HL3Eb/LEkQhgUOndEaM5xCBRSkE/+MFc0xZY=
-  - offset: 502
-    length: 9
+  - offset: 552
+    length: 103
     placeholder_text: '&self.log'
     initial_state:
       length: 9
       offset: 502
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: XFaxyX8GXJz6VGGOuaX656kt2wdzGHkriR1JMD2pLlY=
   encrypted_text: AVG7em85KYYY+V1urwVRM+Ar0TjjsaI4R/cXF98G6T3wREa9YKDL9wy3ChuI2EdohqwClCal3Jnk9UosykE+UASEDMx6R4DXC8/TVcyEmaGZ03+eB8g68dZDM8T2JiOQY3Dkg7K7QFMsgR4wS8/OOj7aZY84wEF5UBZ85+ln8p06NmU4lrqARbVQWZIWDpqXRX9InBm9/uLBYECpmaUkYMzcdDZRWxhZSq1ycsQ54aUwWA6zEQ04dT55YstUv/n1In5Xd86HsbU0+78einoWbpSEfMw0f7sulVprV5zu6i0/9AxBi+Qa3Mkd2eF+u2ORzmBxKd1VrYkCIwZPXPuJw8hjq9T++LHqWYd2w3Xvn7a3KULNfXErRJZhxXmlSJaakV987X5Iq84erMck333Its2yqpWzqzL4NFOyJqgpTU6LZnw49HwWYf3HK4r3peRb+opnilKUZEeLcIc7WJT1e2wqn27tA4+GasT82ax2ZVfFsMKK2N0Q00uBfW9JELTQYxIAQWF+nDn45VthTDpuYRyRcPn8QEFETFlRSNKo5GLnPfcdANwm4zgPrhU11/uS8cSzJ0x83UuMAWORYrPTnejjMZ/Mrhi1Coq550rA+yBsVO61st6lm3a0Vs4QYOhc07eSfgP54GeNpVxhp+Lu8BiL8Pf0hmvgBQXPS6kOzX7T4kZrKVrQH59hMfdYJlK7hPOqbdf4WheqGGhLQQnSDKHkHdZHuCWe+Yuzsec20iQQAcEhLT8Vnuh1KZ6Kr4+6
   learner_created: false
@@ -118,5 +118,8 @@ files:
   encrypted_text: 3E5IKspF2/0sdm7JX6Eh81E0soNutSdeB1mqy0/w487m2IpFd2V/3y3U0NWan0wvy2jPM+fP4yvvD6dCyZCMowAMZoglGPppAcBsxZ8WOcfkvGLTXqEuDLGgM0S4nsywXlP5FicE4lYS4hKaM+g3OWF4JpZo+94dCZMzLwxPhSgwNw4JcuCAmJ4GQuxFcqaJs1jLMwBw9n4Bp7R1OFnyQ5oC3Wy/Q39+JWyD1tRBw0uLkHOpN5MxvVu3HV6P4oVWGr2l2D+umTKecA+LFndJO8j0Gk7S6YJ+ee5H98SPdQ15ceNLjvur2L29PGOX/7QuKVLoOXo9zCFo/2wOTwqH0w==
   learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Standard+Library+Types+/+Smart+Pointers+/+Workers+in+the+Engine
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 10 Jan 2023 10:21:13 UTC"
 record: -1
