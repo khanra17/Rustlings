@@ -1,6 +1,8 @@
 use std::num::ParseIntError;
 use std::str::FromStr;
 
+use crate::ParsePersonError::{BadLen, Empty, NoName, ParseInt};
+
 #[derive(Debug, PartialEq)]
 pub struct Person {
     pub name: String,
@@ -29,14 +31,15 @@ impl From<ParseIntError> for ParsePersonError {
 impl FromStr for Person {
     type Err = ParsePersonError;
     fn from_str(s: &str) -> Result<Person, Self::Err> {
-        if s.len() == 0 {
-            /* Return am appropriate error */
+        if s.is_empty() {
+            return Err(Empty);
         }
         let parts: Vec<&str> = s.split(',').collect();
-        /* Add a condition for the cases when there is a wrong number of fields and return an appropriate error */
-        /* Extract the first element from the split operation and use it as the name. Return an appropriate error if the field is empty. */
-        /* Extract the other element from the split and parse it as age. Return an appropriate error if something goes wrong. */
-
-        /* Return a Result of a Person object if everything goes well. */
+        if parts.len() != 2 { return Err(BadLen); }
+        let name = parts[0];
+        if name.is_empty() { return Err(NoName); }
+        let age_str = parts[1].trim();
+        let age =  age_str.parse::<usize>()?;
+        Ok(Person { name: name.parse().unwrap(), age })
     }
 }
