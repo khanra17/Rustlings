@@ -10,6 +10,6 @@ files:
   encrypted_text: m9XZNRB4SP+Ysnl4An4VfJxcMHMjhjweHfKefSXSRgsb3qaVfU+lgWReLK8N0M70fPPIYb2BK0dz4WteYBEbDOF51Cy1Iiwm5sSxfIdA358+qc9RfEY/SOBl/Aef8/tVDU6AJ2cRsAAja+u0bXarWw==
   learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Fearless+Concurrency+/+Shared-State+Concurrency+/+Similarities+Between+RefCell-Rc+and+Mutex-Arc
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true

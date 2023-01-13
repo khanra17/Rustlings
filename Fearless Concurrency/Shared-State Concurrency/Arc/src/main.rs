@@ -3,11 +3,11 @@ use std::thread;
 
 fn main() {
     let numbers: Vec<_> = (0..100u32).collect();
-    let shared_numbers = /*it should be an Arc from the numbers*/;
+    let shared_numbers = Arc::new(numbers);
     let mut joinhandles = Vec::new();
 
     for offset in 0..8 {
-        /*declare child_numbers*/
+        let child_numbers = Arc::clone(&shared_numbers);
         joinhandles.push(
             thread::spawn(move || {
                 let mut i = offset;
