@@ -1,6 +1,4 @@
-fn main() {
-    my_macro!();
-}
+
 
 macro_rules! my_macro {
     () => {
@@ -8,4 +6,6 @@ macro_rules! my_macro {
     };
 }
 
-/*the main function declaration should be below the macro declaration*/
+fn main() {
+    my_macro!();
+}
